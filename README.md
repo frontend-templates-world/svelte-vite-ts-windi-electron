@@ -1,10 +1,18 @@
-# Svelte + WindiCSS + TS + Vite + Yarn 2
+# Svelte + WindiCSS + TS + Vite + Electron + Yarn 2
 
 This template should help get you started developing with Svelte and TypeScript in Vite. It adds [WindiCSS](https://windicss.org) too instead of Tailwind, and uses Yarn 2 instead of Yarn.
 
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+
+## Usage
+
+```shell
+yarn build # Build to executable app
+yarn start # Run the electron app
+yarn dev   # Run Vite & Electron (live reload working)
+```
 
 ## Need an official Svelte framework?
 
